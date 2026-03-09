@@ -1,0 +1,134 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Hafif gri, göz yormayan arka plan */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Header & Navigasyon */
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); /* Derin mavi gradyan */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease; /* Yumuşak geçiş efekti */
+    background: rgba(255,255,255,0.1);
+    font-size: 14px;
+}
+
+/* Kategori Hover Efekti (İstediğin Dinamiklik) */
+nav ul li a:hover {
+    background: #f39c12; /* Atatürk'ün altın sarısı/turuncu vurgusu */
+    color: #fff;
+    transform: translateY(-3px); /* Hafif yukarı kalkma efekti */
+    box-shadow: 0 4px 15px rgba(243, 156, 18, 0.4);
+}
+
+/* Gönderi Kartları */
+.post-card {
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: scale(1.01); /* Üzerine gelince çok hafif büyüme */
+}
+
+.post-header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+}
+
+.post-author { font-weight: bold; color: #2a5298; }
+.post-category { 
+    font-size: 12px; 
+    background: #e1e8f0; 
+    padding: 4px 10px; 
+    border-radius: 15px; 
+    color: #1e3c72;
+}
+
+.post-image img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.post-content { padding: 20px; line-height: 1.6; font-size: 16px; }
+.post-date { padding: 0 20px 20px; color: #999; font-size: 12px; }
+
+/* Paylaşım Formu */
+.post-form-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    border: 2px solid #e1e8f0;
+}
+
+input, textarea, select {
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+}
+
+button {
+    background: #27ae60 !important; /* Paylaş butonu yeşil (güven verici) */
+    transition: background 0.3s ease !important;
+}
+
+button:hover { background: #219150 !important; }
+
+/* Giriş & Kayıt Sayfası Tasarımı */
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.auth-container h2 { color: #1e3c72; margin-bottom: 30px; }
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
