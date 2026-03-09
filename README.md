@@ -13,7 +13,7 @@ Bu proje, **İnönü Üniversitesi OSB MYO** bünyesinde geliştirilmiş, Mustaf
 Projeyi yerel sunucunuzda (XAMPP/WampServer) çalıştırmak için:
 1. Bu depoyu indirin (Download ZIP).
 2. Klasörü `htdocs` veya `www` dizinine kopyalayın.
-3. Tarayıcınızdan `localhost/proje_adi` adresine gidin.
+3. Tarayıcınızdan http://localhost/ataturk-projesi/login.php adresine gidin.
 4. **Not:** `veri/` ve `img/` klasörlerinin yazma izinlerinin açık olduğundan emin olun.
 
 ## 👨‍💻 Geliştirici
@@ -21,3 +21,4 @@ Projeyi yerel sunucunuzda (XAMPP/WampServer) çalıştırmak için:
 
 ---
 *Bu proje eğitim amaçlı geliştirilmiştir.*
+
