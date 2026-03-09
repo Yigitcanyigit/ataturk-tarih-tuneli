@@ -10,15 +10,18 @@ Bu proje, **İnönü Üniversitesi OSB MYO** bünyesinde geliştirilmiş, Mustaf
 * **Modern Arayüz:** CSS3 ile güçlendirilmiş, responsive ve kullanıcı dostu tasarım.
 
 ## 🛠️ Kurulum Notları
-Projeyi yerel sunucunuzda (XAMPP/WampServer) çalıştırmak için:
-1. Bu depoyu indirin (Download ZIP).
-2. Klasörü `htdocs` veya `www` dizinine kopyalayın.
-3. Tarayıcınızdan http://localhost/ataturk-projesi/login.php adresine gidin.
-4. **Not:** `veri/` ve `img/` klasörlerinin yazma izinlerinin açık olduğundan emin olun.
+Projeyi yerel sunucunuzda (XAMPP/WampServer) çalıştırmak için lütfen şu adımları izleyin:
+
+1. Bu depoyu sağ üstteki "Code" butonuna basarak indirin (Download ZIP) ve ZIP'ten çıkarın.
+2. ZIP'ten çıkan klasörün adını tam olarak " ataturk-projesi " olacak şekilde değiştirin. (İç içe klasör olmamasına dikkat edin).
+3. Bu klasörü `C:\xampp\htdocs` (veya Wamp kullanıyorsanız `www`) dizinine kopyalayın.
+4. Tarayıcınızdan `http://localhost/ataturk-projesi/login.php` adresine gidin.
+5. **Not:** Dosya yükleme işlemleri için `veri/` ve `img/` klasörlerinin yazma izinlerinin açık olduğundan emin olun.
 
 ## 👨‍💻 Geliştirici
 **Yiğit Can Yiğit** *İnönü Üniversitesi - OSB Meslek Yüksekokulu*
 
 ---
 *Bu proje eğitim amaçlı geliştirilmiştir.*
+
 
